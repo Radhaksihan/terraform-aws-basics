@@ -1,4 +1,5 @@
 ## 📘 Introduction
-This repository contains a Terraform project that provisions an **AWS Virtual Private Cloud (VPC)** using Infrastructure as Code principles.
+This repository contains hands-on Terraform practice tasks focused on provisioning and managing AWS infrastructure.
+It is designed to demonstrate practical knowledge of Terraform, AWS services, and Infrastructure as Code (IaC) concepts.
 
-It is designed to demonstrate hands-on experience with Terraform, AWS networking, and DevOps best practices, making it suitable for technical interviews and portfolio showcase.
+The repository is structured in a service-based and task-oriented manner, making it easy to understand, practice, and explain during interviews.
