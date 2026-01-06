@@ -1,9 +1,5 @@
-# Step 1: AWS provider configuration
-provider "aws" {
-  region = "us-east-1"
-}
 
-# Step 2: Create VPC
+# Step 1: Create VPC
 resource "aws_vpc" "datacenter_vpc" {
 
   # Private IP range for the VPC
@@ -14,8 +10,12 @@ resource "aws_vpc" "datacenter_vpc" {
   }
 }
 
-# Commands to deploy:
-# terraform init
-# terraform plan
-# terraform apply
+# ---------------------------------------------------
+# Task Description:
+# Create a VPC using Terraform with the following
+# requirements:
+#
+# - VPC name must be "datacenter-vpc"
+# - Use any valid IPv4 CIDR block
+# ---------------------------------------------------
 
